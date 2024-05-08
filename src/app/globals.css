@@ -2,15 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 1025px) {
+  .texts {
+    width: 65%;
+  }
+}
+@media only screen and (max-width: 600px) {
   .headerh1 {
     font-size: 1rem !important;
   }
   .input {
     padding-right: 10px;
   }
+  .texts {
+    width: 100% !important;
+  }
 }
-@media (max-width: 450px) {
+@media only screen and (max-width: 450px) {
   .header {
     padding: 1rem;
   }
@@ -19,6 +27,12 @@
   }
   .input {
     padding-right: 0px;
+  }
+  .detail {
+    padding: 20px;
+  }
+  .country {
+    padding-top: 20px;
   }
 }
 /* 

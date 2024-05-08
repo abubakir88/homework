@@ -8,14 +8,14 @@ const Detail = () => {
   return (
     <div>
       <Header />
-      <div className="container mx-auto px-20 pt-20">
+      <div className="detail container mx-auto px-20 pt-20">
         <Link href="/countries" className="flex items-center gap-2">
           <FaArrowLeftLong />
           <p>Back</p>
         </Link>
-        <div className="flex justify-around items-center flex-wrap pt-20 gap-y-5">
+        <div className="country flex justify-around items-center flex-wrap pt-20 gap-y-5">
           <Image src="/Germany.png" width={560} height={400} alt="Germany" />
-          <div className="flex items-center justify-between flex-wrap w-2/4">
+          <div className="texts flex items-center justify-between flex-wrap w-2/4">
             <div className="left">
               <h1 className="text-4xl font-bold pb-2">Germany</h1>
               <p>
