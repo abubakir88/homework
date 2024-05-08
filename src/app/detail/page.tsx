@@ -53,7 +53,7 @@ const Detail = () => {
                 Dutch, French, German
               </p>
             </div>
-            <div className="flex gap-2">
+            <div className="flex gap-2 flex-wrap">
               <strong>Border Countries: </strong>
               <button className="bg-gray-300 hover:bg-gray-400 px-4 rounded transition-transform">
                 Netherlands
